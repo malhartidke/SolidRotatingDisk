@@ -1,0 +1,864 @@
+
+ ANSYS Academic Teaching Introductory              
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS 2019 R2          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2019 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2019 R2 
+     
+ Point Releases and Patches installed:   
+     
+ Academic Student 2019 R2
+ FENSAP-ICE 2019 R2  
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  BATCH MODE REQUESTED (-b)    = NOLIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       2 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     2 CORES REQUESTED
+  DESIGNXPLORER REQUESTED
+  INPUT FILE NAME              = D:\PDF's\Academic\BITS\SEM I\TEP\Project\Design\Model\_ProjectScratch\ScrF034\dummy.dat
+  OUTPUT FILE NAME             = D:\PDF's\Academic\BITS\SEM I\TEP\Project\Design\Model\_ProjectScratch\ScrF034\solve.out
+  START-UP FILE MODE           = NOREAD
+  STOP FILE MODE               = NOREAD
+
+ RELEASE= 2019 R2              BUILD= 19.4      UP20190416   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  11:30:14  NOV 16, 2019 CP=      0.312
+
+
+ PARAMETER _DS_PROGRESS =     999.0000000    
+
+ /INPUT FILE= ds.dat  LINE=       0
+
+
+
+ *** NOTE ***                            CP =       0.499   TIME= 11:30:15
+ The /CONFIG,NOELDB command is not valid in a Distributed ANSYS          
+ solution.  Command is ignored.                                          
+
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  11.5041667    
+
+ TITLE= 
+ Rotating_Disk--Solution for Completely Elastic (E5)                           
+
+
+ SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = D:\PDF's\Academic\BITS\SEM I\TEP\Project\Design\Model\_ProjectScratch\ScrF034\
+
+ SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_SOLVERFILES_DIR(1) = D:\PDF's\Academic\BITS\SEM I\TEP\Project\Design\Model\Rotating_Disk_files\dp0\SYS-4\MECH\
+
+ SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_USERFILES_DIR(1) = D:\PDF's\Academic\BITS\SEM I\TEP\Project\Design\Model\Rotating_Disk_files\user_files\
+ --- Data in consistent NMM units. See Solving Units in the help system for more
+
+ MPA UNITS SPECIFIED FOR INTERNAL    
+  LENGTH      = MILLIMETERS (mm)
+  MASS        = TONNE (Mg)
+  TIME        = SECONDS (sec)
+  TEMPERATURE = CELSIUS (C)
+  TOFFSET     = 273.0
+  FORCE       = NEWTON (N)
+  HEAT        = MILLIJOULES (mJ)
+
+ INPUT  UNITS ARE ALSO SET TO MPA 
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2019 R2          19.4     ***
+ DISTRIBUTED ANSYS Academic Teaching Introductory              
+
+ 01055371  VERSION=WINDOWS x64   11:30:15  NOV 16, 2019 CP=      0.515
+
+ Rotating_Disk--Solution for Completely Elastic (E5)                           
+
+
+
+          ***** ANSYS ANALYSIS DEFINITION (PREP7) *****
+ *********** Nodes for the whole assembly ***********
+ *********** Elements for Body 1 "SYS\Surface" ***********
+ *********** Send User Defined Coordinate System(s) ***********
+ *********** Set Reference Temperature ***********
+ *********** Send Materials ***********
+ *********** Send Sheet Properties ***********
+ *********** Fixed Supports ***********
+ *********** Define Rotational Velocity ***********
+
+ LIST DATA TABLE  BISO  FOR MATERIAL      1
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2019 R2          19.4     ***
+ DISTRIBUTED ANSYS Academic Teaching Introductory              
+
+ 01055371  VERSION=WINDOWS x64   11:30:15  NOV 16, 2019 CP=      0.764
+
+ Rotating_Disk--Solution for Completely Elastic (E5)                           
+
+
+
+               BiIso Pl (BISO) Table For Material     1
+
+               1   
+   Temps   0.0000    
+ Yld Strs  250.00    
+ Tang Mod 0.20000    
+
+
+ ***** ROUTINE COMPLETED *****  CP =         0.796
+
+
+ --- Number of total nodes = 31957
+ --- Number of contact elements = 0
+ --- Number of spring elements = 0
+ --- Number of bearing elements = 0
+ --- Number of solid elements = 9980
+ --- Number of condensed parts = 0
+ --- Number of total elements = 9980
+
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  11.5041667    
+ ****************************************************************************
+ *************************    SOLUTION       ********************************
+ ****************************************************************************
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+ PERFORM A STATIC ANALYSIS
+  THIS WILL BE A NEW ANALYSIS
+
+ LARGE DEFORMATION ANALYSIS
+
+ USE SPARSE MATRIX DIRECT SOLVER
+
+ CONTACT INFORMATION PRINTOUT LEVEL       1
+
+ DO NOT COMBINE ELEMENT MATRIX FILES (.emat) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ DO NOT COMBINE ELEMENT SAVE DATA FILES (.esav) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ NLDIAG: Nonlinear diagnostics CONT option is set to ON. 
+         Writing frequency : each ITERATION.
+
+ DEFINE RESTART CONTROL FOR LOADSTEP LAST
+ AT FREQUENCY OF LAST AND NUMBER FOR OVERWRITE IS    0
+
+ DELETE RESTART FILES OF ENDSTEP
+ ****************************************************
+ ******************* SOLVE FOR LS 1 OF 1 ****************
+
+ CGOMGA=  0.0000      1070.7      0.0000    
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       5 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE   1000 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  1.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ *GET  ANSINTER_  FROM  ACTI  ITEM=INT        VALUE=  0.00000000    
+
+ *IF  ANSINTER_                         ( =   0.00000     )  NE  
+      0                                 ( =   0.00000     )  THEN    
+
+ *ENDIF
+
+ *** NOTE ***                            CP =       0.858   TIME= 11:30:15
+ The automatic domain decomposition logic has selected the MESH domain   
+ decomposition method with 2 processes per solution.                     
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       0.858   TIME= 11:30:15
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** NOTE ***                            CP =       0.889   TIME= 11:30:15
+ Axisymmetric elements are present.  The nodal loads input with the F    
+ commands and the reaction forces are on a full circle basis.  This      
+ differs from the pre-ANSYS 5.0 interpretation.                          
+
+ *** NOTE ***                            CP =       0.920   TIME= 11:30:15
+ The model data was checked and warning messages were found.             
+  Please review output or errors file ( D:\PDF's\Academic\BITS\SEM       
+ I\TEP\Project\Design\Model\_ProjectScratch\ScrF034\file0.err ) for      
+ these warning messages.                                                 
+
+ *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
+      --- GIVE SUGGESTIONS AND RESET THE KEY OPTIONS ---
+
+ ELEMENT TYPE    1 IS PLANE183 WITH AXISYMMETRIC OPTION. IT IS NOT ASSOCIATED
+ WITH FULLY INCOMPRESSIBLE HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE
+ AND NO RESETTING IS NEEDED.
+
+
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2019 R2          19.4     ***
+ DISTRIBUTED ANSYS Academic Teaching Introductory              
+
+ 01055371  VERSION=WINDOWS x64   11:30:15  NOV 16, 2019 CP=      0.920
+
+ Rotating_Disk--Solution for Completely Elastic (E5)                           
+
+
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .AXISYMMETRIC         
+   DEGREES OF FREEDOM. . . . . . UX   UY  
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
+   NONLINEAR GEOMETRIC EFFECTS . . . . . . . . . .ON
+   EQUATION SOLVER OPTION. . . . . . . . . . . . .SPARSE             
+   PLASTIC MATERIAL PROPERTIES INCLUDED. . . . . .YES
+   NEWTON-RAPHSON OPTION . . . . . . . . . . . . .PROGRAM CHOSEN   
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** NOTE ***                            CP =       0.983   TIME= 11:30:15
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** NOTE ***                            CP =       0.983   TIME= 11:30:15
+ The conditions for direct assembly have been met.  No .emat or .erot    
+ files will be produced.                                                 
+
+  
+  
+     D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
+  
+  ...Number of elements: 9980
+  ...Number of nodes:    31957
+  ...Decompose to 2 CPU domains
+  ...Element load balance ratio =     1.000
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     5
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .  1000
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   CONVERGENCE CONTROLS. . . . . . . . . . . . . .USE DEFAULTS
+   INERTIA LOADS                        X           Y           Z 
+      CGLOC. . . . . . . . . . . .  0.0000      2.5000      0.0000    
+      CGOMGA . . . . . . . . . . .  0.0000      1070.7      0.0000    
+   COPY INTEGRATION POINT VALUES TO NODE . . . . .YES, FOR ELEMENTS WITH
+                                                  ACTIVE MAT. NONLINEARITIES
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      CONT        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+
+
+
+            **** CENTER OF MASS, MASS, AND MASS MOMENTS OF INERTIA ****
+
+  CALCULATIONS ASSUME ELEMENT MASS AT ELEMENT CENTROID
+
+  TOTAL MASS =  0.30827E-01
+
+
+ MASS AND MOMENT VALUES ARE EVALUATED FOR AN AXISYMMETRIC 360. DEGREE MODEL.
+
+                    MOM. OF INERTIA      MOM. OF INERTIA     RADIUS OF GYRATION
+ CENTER OF MASS      ABOUT ORIGIN     ABOUT CENTER OF MASS  ABOUT CENTER OF MASS
+
+ XC =   0.0000       IXX =    1927.       IXX =    1927.      RGX =    250.0    
+ YC =   2.5000       IYY =    3853.       IYY =    3853.      RGY =    353.6    
+
+
+  *** MASS SUMMARY BY ELEMENT TYPE ***
+
+  TYPE      MASS
+     1  0.308269E-01
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 1.629002214E+09 at element 5.                                 
+ Minimum = 1184439.43 at element 7977.                                   
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      9980  PLANE183      1.170   0.000117
+ Time at end of element matrix formulation CP = 1.95001245.              
+
+ ALL CURRENT ANSYS DATA WRITTEN TO FILE NAME= file.rdb
+  FOR POSSIBLE RESUME FROM THIS POINT
+     FORCE CONVERGENCE VALUE  =   6237.      CRITERION=   31.82    
+
+ DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
+  Number of equations =       63912,    Maximum wavefront =     42
+
+  Local memory allocated for solver              =     50.904 MB
+  Local memory required for in-core solution     =     41.744 MB
+  Local memory required for out-of-core solution =     24.546 MB
+
+  Total memory allocated for solver              =    101.787 MB
+  Total memory required for in-core solution     =     83.468 MB
+  Total memory required for out-of-core solution =     49.068 MB
+
+ *** NOTE ***                            CP =       2.371   TIME= 11:30:16
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+ curEqn=  31976  totEqn=  31976 Job CP sec=      2.558
+      Factor Done= 100% Factor Wall sec=      0.085 rate=    1939.9 Mflops
+ Distributed sparse solver maximum pivot= 3.249484548E+09 at node 15026  
+ UY.                                                                     
+ Distributed sparse solver minimum pivot= 351.502895 at node 22611 UY.   
+ Distributed sparse solver minimum pivot in absolute value= 351.502895   
+ at node 22611 UY.                                                       
+     DISP CONVERGENCE VALUE   =  0.3984E-01  CRITERION=  0.2033E-02
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.3984E-01
+     FORCE CONVERGENCE VALUE  =   45.49      CRITERION=   32.47    
+     DISP CONVERGENCE VALUE   =  0.1848E-05  CRITERION=  0.2074E-02 <<< CONVERGED
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1848E-05
+     FORCE CONVERGENCE VALUE  =  0.8270E-04  CRITERION=   33.14     <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   2
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      9980  PLANE183      1.388   0.000139
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      9980  PLANE183      0.109   0.000011
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      2
+ *** TIME =  0.200000         TIME INC =  0.200000    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.20000      UNCHANGED
+
+     FORCE CONVERGENCE VALUE  =  0.1248E+05  CRITERION=   127.3    
+     DISP CONVERGENCE VALUE   =  0.7976E-01  CRITERION=  0.6102E-02
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.7976E-01
+     FORCE CONVERGENCE VALUE  =   182.3      CRITERION=   129.9    
+     DISP CONVERGENCE VALUE   =  0.9615E-05  CRITERION=  0.6227E-02 <<< CONVERGED
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.9615E-05
+     FORCE CONVERGENCE VALUE  =  0.2247E-03  CRITERION=   132.6     <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   2
+ *** LOAD STEP     1   SUBSTEP     2  COMPLETED.    CUM ITER =      4
+ *** TIME =  0.400000         TIME INC =  0.200000    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.30000      INCREASED (FACTOR = 1.5000)
+
+     FORCE CONVERGENCE VALUE  =  0.2364E+06  CRITERION=   390.1    
+     DISP CONVERGENCE VALUE   =  0.5465      CRITERION=  0.3483E-01
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.5465    
+     FORCE CONVERGENCE VALUE  =  0.2272E+07  CRITERION=   398.6    
+     DISP CONVERGENCE VALUE   =   45.47      CRITERION=   2.331    
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -45.47    
+     FORCE CONVERGENCE VALUE  =  0.1099E+09  CRITERION=   365.6    
+     DISP CONVERGENCE VALUE   =   21.22      CRITERION=   2.379    
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=   21.22    
+
+ *** ERROR ***                           CP =      10.218   TIME= 11:30:24
+ Element 7969 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+ *** LOAD STEP     1   SUBSTEP     3  NOT COMPLETED.  CUM ITER =      8
+ *** BEGIN BISECTION NUMBER   1    NEW TIME INCREMENT=  0.10500    
+
+     FORCE CONVERGENCE VALUE  =   5013.      CRITERION=   203.0    
+     DISP CONVERGENCE VALUE   =  0.3201E-01  CRITERION=  0.6102E-02
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.3201E-01
+     FORCE CONVERGENCE VALUE  =   29.44      CRITERION=   207.1     <<< CONVERGED
+     DISP CONVERGENCE VALUE   =  0.1761E-04  CRITERION=  0.6227E-02 <<< CONVERGED
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC = -0.1761E-04
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   2
+ *** LOAD STEP     1   SUBSTEP     3  COMPLETED.    CUM ITER =      9
+ *** TIME =  0.505000         TIME INC =  0.105000    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.10500      UNCHANGED
+
+     FORCE CONVERGENCE VALUE  =  0.2922E+06  CRITERION=   296.3    
+     DISP CONVERGENCE VALUE   =  0.1928      CRITERION=  0.1365E-01
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1928    
+     FORCE CONVERGENCE VALUE  =  0.4662E+06  CRITERION=   302.4    
+     DISP CONVERGENCE VALUE   =  0.1643      CRITERION=  0.2228E-01
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1643    
+     FORCE CONVERGENCE VALUE  =  0.3802E+06  CRITERION=   308.7    
+     DISP CONVERGENCE VALUE   =   4.785      CRITERION=  0.2317    
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -4.785    
+     FORCE CONVERGENCE VALUE  =  0.6537E+07  CRITERION=   311.4    
+     DISP CONVERGENCE VALUE   =   481.7      CRITERION=   26.35    
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -481.7    
+
+ *** ERROR ***                           CP =      15.725   TIME= 11:30:30
+ Axisymmetric element 992 has deformed so that one or more integration   
+ points have crossed the centerline.  It is suggested that you apply     
+ the load more slowly, or possibly consider rezoning.                    
+
+ *** ERROR ***                           CP =      15.725   TIME= 11:30:30
+ Axisymmetric element 7970 has deformed so that one or more integration  
+ points have crossed the centerline.  It is suggested that you apply     
+ the load more slowly, or possibly consider rezoning.                    
+
+ *** ERROR ***                           CP =      15.725   TIME= 11:30:30
+ Element 7970 (PLANE183) is turning inside out.                          
+ *** LOAD STEP     1   SUBSTEP     4  NOT COMPLETED.  CUM ITER =     14
+ *** BEGIN BISECTION NUMBER   1    NEW TIME INCREMENT=  0.36750E-01
+
+     FORCE CONVERGENCE VALUE  =  0.2680E+05  CRITERION=   233.6    
+     DISP CONVERGENCE VALUE   =  0.1731E-01  CRITERION=  0.6102E-02
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1731E-01
+     FORCE CONVERGENCE VALUE  =  0.1460E+05  CRITERION=   238.4    
+     DISP CONVERGENCE VALUE   =  0.1543E-02  CRITERION=  0.6227E-02 <<< CONVERGED
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1543E-02
+     FORCE CONVERGENCE VALUE  =   742.1      CRITERION=   243.3    
+     DISP CONVERGENCE VALUE   =  0.2994E-04  CRITERION=  0.6354E-02 <<< CONVERGED
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.2994E-04
+     FORCE CONVERGENCE VALUE  =   52.03      CRITERION=   248.3     <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   3
+ *** LOAD STEP     1   SUBSTEP     4  COMPLETED.    CUM ITER =     16
+ *** TIME =  0.541750         TIME INC =  0.367500E-01
+ *** MAX PLASTIC STRAIN STEP = 0.5375E-03   CRITERION = 0.1500    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.36750E-01  UNCHANGED
+
+     FORCE CONVERGENCE VALUE  =  0.1684E+06  CRITERION=   266.5    
+     DISP CONVERGENCE VALUE   =  0.6672E-01  CRITERION=  0.6102E-02
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.6672E-01
+     FORCE CONVERGENCE VALUE  =  0.8944E+05  CRITERION=   271.9    
+     DISP CONVERGENCE VALUE   =  0.1084E-01  CRITERION=  0.6227E-02
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1084E-01
+     FORCE CONVERGENCE VALUE  =   8571.      CRITERION=   277.5    
+     DISP CONVERGENCE VALUE   =  0.5359E-03  CRITERION=  0.6354E-02 <<< CONVERGED
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.5359E-03
+     FORCE CONVERGENCE VALUE  =   222.9      CRITERION=   283.2     <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   3
+ *** LOAD STEP     1   SUBSTEP     5  COMPLETED.    CUM ITER =     19
+ *** TIME =  0.578500         TIME INC =  0.367500E-01
+ *** MAX PLASTIC STRAIN STEP = 0.1537E-02   CRITERION = 0.1500    
+ *** AUTO TIME STEP:  NEXT TIME INC = 0.55125E-01  INCREASED (FACTOR = 1.5000)
+
+     FORCE CONVERGENCE VALUE  =  0.6786E+06  CRITERION=   319.8    
+     DISP CONVERGENCE VALUE   =  0.6948      CRITERION=  0.4415E-01
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.6948    
+     FORCE CONVERGENCE VALUE  =  0.1629E+07  CRITERION=   326.9    
+     DISP CONVERGENCE VALUE   =   17.12      CRITERION=  0.8464    
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -17.12    
+     FORCE CONVERGENCE VALUE  =  0.1812E+08  CRITERION=   320.1    
+     DISP CONVERGENCE VALUE   =   55.39      CRITERION=   2.114    
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=   55.39    
+     FORCE CONVERGENCE VALUE  =  0.3624E+09  CRITERION=   370.5    
+     DISP CONVERGENCE VALUE   =   39.18      CRITERION=   2.839    
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=   39.18    
+
+ *** ERROR ***                           CP =      26.380   TIME= 11:30:41
+ Element 9481 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      26.380   TIME= 11:30:41
+ Element 7970 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+ *** LOAD STEP     1   SUBSTEP     6  NOT COMPLETED.  CUM ITER =     24
+ *** BEGIN BISECTION NUMBER   1    NEW TIME INCREMENT=  0.19294E-01
+
+     FORCE CONVERGENCE VALUE  =  0.1994E+06  CRITERION=   284.6    
+     DISP CONVERGENCE VALUE   =  0.7019E-01  CRITERION=  0.6575E-02
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.7019E-01
+     FORCE CONVERGENCE VALUE  =  0.1180E+06  CRITERION=   290.5    
+     DISP CONVERGENCE VALUE   =  0.2278E-01  CRITERION=  0.7876E-02
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.2278E-01
+     FORCE CONVERGENCE VALUE  =  0.2395E+05  CRITERION=   296.4    
+     DISP CONVERGENCE VALUE   =  0.3082E-02  CRITERION=  0.8197E-02 <<< CONVERGED
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.3082E-02
+     FORCE CONVERGENCE VALUE  =   1434.      CRITERION=   302.5    
+     DISP CONVERGENCE VALUE   =  0.6300E-04  CRITERION=  0.8368E-02 <<< CONVERGED
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.6300E-04
+     FORCE CONVERGENCE VALUE  =  0.9950      CRITERION=   308.6     <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   4
+ *** LOAD STEP     1   SUBSTEP     6  COMPLETED.    CUM ITER =     27
+ *** TIME =  0.597794         TIME INC =  0.192937E-01
+ *** MAX PLASTIC STRAIN STEP = 0.1922E-02   CRITERION = 0.1500    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.19294E-01  UNCHANGED
+
+     FORCE CONVERGENCE VALUE  =  0.4798E+06  CRITERION=   303.5    
+     DISP CONVERGENCE VALUE   =   8.470      CRITERION=  0.4243    
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -8.470    
+     FORCE CONVERGENCE VALUE  =  0.5471E+07  CRITERION=   303.4    
+     DISP CONVERGENCE VALUE   =   325.0      CRITERION=   16.49    
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=   325.0    
+
+ *** ERROR ***                           CP =      32.511   TIME= 11:30:47
+ Element 9481 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      32.511   TIME= 11:30:47
+ Element 7970 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+ *** LOAD STEP     1   SUBSTEP     7  NOT COMPLETED.  CUM ITER =     30
+ *** BEGIN BISECTION NUMBER   1    NEW TIME INCREMENT=  0.67528E-02
+
+     FORCE CONVERGENCE VALUE  =  0.1504E+06  CRITERION=   291.2    
+     DISP CONVERGENCE VALUE   =  0.1551      CRITERION=  0.1066E-01
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1551    
+     FORCE CONVERGENCE VALUE  =  0.2626E+06  CRITERION=   297.2    
+     DISP CONVERGENCE VALUE   =   2.095      CRITERION=  0.9819E-01
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -2.095    
+     FORCE CONVERGENCE VALUE  =  0.7554E+07  CRITERION=   301.8    
+     DISP CONVERGENCE VALUE   =   231.6      CRITERION=   12.41    
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -231.6    
+
+ *** ERROR ***                           CP =      34.960   TIME= 11:30:49
+ Axisymmetric element 7970 has deformed so that one or more integration  
+ points have crossed the centerline.  It is suggested that you apply     
+ the load more slowly, or possibly consider rezoning.                    
+
+ *** ERROR ***                           CP =      34.960   TIME= 11:30:49
+ Element 7970 (PLANE183) is turning inside out.                          
+ *** LOAD STEP     1   SUBSTEP     7  NOT COMPLETED.  CUM ITER =     33
+ *** BEGIN BISECTION NUMBER   2    NEW TIME INCREMENT=  0.23635E-02
+
+     FORCE CONVERGENCE VALUE  =  0.4960E+05  CRITERION=   286.9    
+     DISP CONVERGENCE VALUE   =  0.2568E-01  CRITERION=  0.7876E-02
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.2568E-01
+     FORCE CONVERGENCE VALUE  =  0.2542E+05  CRITERION=   292.8    
+     DISP CONVERGENCE VALUE   =  0.6612E-02  CRITERION=  0.8036E-02 <<< CONVERGED
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.6612E-02
+     FORCE CONVERGENCE VALUE  =   4949.      CRITERION=   298.8    
+     DISP CONVERGENCE VALUE   =  0.4806E-03  CRITERION=  0.8200E-02 <<< CONVERGED
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.4806E-03
+     FORCE CONVERGENCE VALUE  =   213.9      CRITERION=   304.9     <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   3
+ *** LOAD STEP     1   SUBSTEP     7  COMPLETED.    CUM ITER =     35
+ *** TIME =  0.600157         TIME INC =  0.236348E-02
+ *** MAX PLASTIC STRAIN STEP = 0.6320E-03   CRITERION = 0.1500    
+ *** AUTO STEP TIME:  NEXT TIME INC = 0.23635E-02  UNCHANGED
+
+     FORCE CONVERGENCE VALUE  =  0.9008E+05  CRITERION=   289.3    
+     DISP CONVERGENCE VALUE   =  0.9206      CRITERION=  0.4434E-01
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.9206    
+     FORCE CONVERGENCE VALUE  =  0.7513E+07  CRITERION=   294.5    
+     DISP CONVERGENCE VALUE   =   7.538      CRITERION=  0.3475    
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=   7.538    
+     FORCE CONVERGENCE VALUE  =  0.2119E+08  CRITERION=   305.8    
+     DISP CONVERGENCE VALUE   =   3.652      CRITERION=  0.5413    
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=   3.652    
+     FORCE CONVERGENCE VALUE  =  0.5288E+06  CRITERION=   314.7    
+     DISP CONVERGENCE VALUE   =   13.30      CRITERION=  0.5524    
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -13.30    
+     FORCE CONVERGENCE VALUE  =  0.9233E+07  CRITERION=   311.3    
+     DISP CONVERGENCE VALUE   =   72.86      CRITERION=   3.858    
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=   72.86    
+     FORCE CONVERGENCE VALUE  =  0.8149E+09  CRITERION=   371.3    
+    >>> SOLUTION PATTERNS SHOW DIVERGENCE AT ITERATION =   6
+ *** LOAD STEP     1   SUBSTEP     8  NOT COMPLETED.  CUM ITER =     41
+ *** BEGIN BISECTION NUMBER   1    NEW TIME INCREMENT=  0.10000E-02
+
+     FORCE CONVERGENCE VALUE  =  0.3308E+05  CRITERION=   287.9    
+     DISP CONVERGENCE VALUE   =  0.3560E-01  CRITERION=  0.7876E-02
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.3560E-01
+     FORCE CONVERGENCE VALUE  =  0.3685E+05  CRITERION=   293.8    
+     DISP CONVERGENCE VALUE   =  0.2022      CRITERION=  0.8036E-02
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.2022    
+     FORCE CONVERGENCE VALUE  =  0.2266E+07  CRITERION=   299.7    
+     DISP CONVERGENCE VALUE   =  0.1459      CRITERION=  0.8200E-02
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1459    
+     FORCE CONVERGENCE VALUE  =   8916.      CRITERION=   305.9    
+     DISP CONVERGENCE VALUE   =  0.3466E-01  CRITERION=  0.8368E-02
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.3466E-01
+     FORCE CONVERGENCE VALUE  =  0.4069E+05  CRITERION=   312.2    
+     DISP CONVERGENCE VALUE   =  0.6752E-01  CRITERION=  0.8538E-02
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.6752E-01
+     FORCE CONVERGENCE VALUE  =  0.6765E+05  CRITERION=   318.6    
+     DISP CONVERGENCE VALUE   =  0.2481      CRITERION=  0.8713E-02
+    EQUIL ITER   6 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.2481    
+     FORCE CONVERGENCE VALUE  =  0.2263E+07  CRITERION=   324.9    
+     DISP CONVERGENCE VALUE   =  0.1459      CRITERION=  0.8891E-02
+    EQUIL ITER   7 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1459    
+     FORCE CONVERGENCE VALUE  =   8918.      CRITERION=   331.7    
+     DISP CONVERGENCE VALUE   =  0.3466E-01  CRITERION=  0.9072E-02
+    EQUIL ITER   8 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.3466E-01
+     FORCE CONVERGENCE VALUE  =  0.4069E+05  CRITERION=   338.5    
+     DISP CONVERGENCE VALUE   =  0.6752E-01  CRITERION=  0.9257E-02
+    EQUIL ITER   9 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.6752E-01
+     FORCE CONVERGENCE VALUE  =  0.6765E+05  CRITERION=   345.4    
+     DISP CONVERGENCE VALUE   =  0.2481      CRITERION=  0.9446E-02
+    EQUIL ITER  10 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.2481    
+     FORCE CONVERGENCE VALUE  =  0.2263E+07  CRITERION=   352.3    
+     DISP CONVERGENCE VALUE   =  0.1459      CRITERION=  0.9639E-02
+    EQUIL ITER  11 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1459    
+     FORCE CONVERGENCE VALUE  =   8918.      CRITERION=   359.6    
+     DISP CONVERGENCE VALUE   =  0.3466E-01  CRITERION=  0.9836E-02
+    EQUIL ITER  12 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.3466E-01
+     FORCE CONVERGENCE VALUE  =  0.4069E+05  CRITERION=   366.9    
+     DISP CONVERGENCE VALUE   =  0.6752E-01  CRITERION=  0.1004E-01
+    EQUIL ITER  13 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.6752E-01
+     FORCE CONVERGENCE VALUE  =  0.6765E+05  CRITERION=   374.5    
+     DISP CONVERGENCE VALUE   =  0.2481      CRITERION=  0.1024E-01
+    EQUIL ITER  14 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.2481    
+     FORCE CONVERGENCE VALUE  =  0.2263E+07  CRITERION=   381.9    
+     DISP CONVERGENCE VALUE   =  0.1459      CRITERION=  0.1045E-01
+    EQUIL ITER  15 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1459    
+
+ *** ERROR ***                           CP =      55.053   TIME= 11:31:10
+ Solution not converged at time 0.601157234 (load step 1 substep 8).     
+  Run terminated.                                                        
+
+ *** WARNING ***                         CP =      55.053   TIME= 11:31:10
+ The unconverged solution (identified as time 1 substep 999999) is       
+ output for analysis debug purposes.  Results should not be used for     
+ any other purpose.                                                      
+
+
+
+
+         R E S T A R T   I N F O R M A T I O N
+
+ REASON FOR TERMINATION. . . . . . . . . .UNCONVERGED SOLUTION                    
+ FILES NEEDED FOR RESTARTING . . . . . . .  file0.Rnnn
+                                            file.ldhi
+                                            file.rdb
+ TIME OF LAST SOLUTION . . . . . . . . . . 0.60016    
+    TIME AT START OF THE LOAD STEP . . . .  0.0000    
+    TIME AT END OF THE LOAD STEP . . . . .  1.0000    
+ NOTE: FOR CONVERGING SOLUTIONS, ADDITIONAL EQUILIBRIUM ITERATIONS MAY BE
+       ADDED IN THE RESTART (NEQIT COMMAND) USING THE RESTART FILE file0.Rnnn                                                                                                                                                                                                                                                          
+
+ ALL CURRENT ANSYS DATA WRITTEN TO FILE NAME= file.db
+  FOR POSSIBLE RESUME FROM THIS POINT
+
+
+
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          2
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=         11
+
+
+
+ ***** PROBLEM TERMINATED BY INDICATED ERROR(S) OR BY END OF INPUT DATA *****
+
++--------- D I S T R I B U T E D   A N S Y S   S T A T I S T I C S ------------+
+
+Release: 2019 R2            Build: 19.4       Update: UP20190416   Platform: WINDOWS x64 
+Date Run: 11/16/2019   Time: 11:31     Process ID: 2476
+Operating System: Windows 7 Service Pack 1 (Build: 7601)
+
+Processor Model: Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
+
+Compiler: Intel(R) FORTRAN Compiler Version 17.0.6  (Build: 20171215)
+          Intel(R) C/C++ Compiler Version 17.0.6  (Build: 20171215)
+          Intel(R) Math Kernel Library Version 2017.0.3 Product Build 20170413
+
+Number of machines requested            :    1
+Total number of cores available         :    4
+Number of physical cores available      :    2
+Number of processes requested           :    2
+Number of threads per process requested :    1
+Total number of cores requested         :    2 (Distributed Memory Parallel)               
+MPI Type: INTELMPI
+MPI Version: Intel(R) MPI Library 2018 Update 3 for Windows* OS
+
+
+GPU Acceleration: Not Requested
+
+Job Name: file0
+Input File: dummy.dat
+
+  Core                Machine Name   Working Directory
+ -----------------------------------------------------
+     0                  Glostor-PC   D:\PDF's\Academic\BITS\SEM I\TEP\Project\Design\Model\_ProjectScratch\ScrF034
+     1                  Glostor-PC   D:\PDF's\Academic\BITS\SEM I\TEP\Project\Design\Model\_ProjectScratch\ScrF034
+ 
+Latency time from master to core     1 =    1.485 microseconds
+ 
+Communication speed from master to core     1 =  1615.82 MB/sec
+
+Total CPU time for main thread                    :       56.0 seconds
+Total CPU time summed for all threads             :       56.2 seconds
+
+Elapsed time spent pre-processing model (/PREP7)  :        0.1 seconds
+Elapsed time spent solution - preprocessing       :        0.2 seconds
+Elapsed time spent computing solution             :       55.6 seconds
+Elapsed time spent solution - postprocessing      :        0.6 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+ 
+Equation solver used                              :            Sparse (symmetric)
+Equation solver computational rate                :        3.5 Gflops
+Equation solver effective I/O rate                :        5.0 GB/sec
+
+Maximum total memory used                         :      348.0 MB
+Maximum total memory allocated                    :     3136.0 MB
+Total physical memory available                   :          4 GB
+
+Total amount of I/O written to disk               :        2.2 GB
+Total amount of I/O read from disk                :        2.3 GB
+
++------ E N D   D I S T R I B U T E D   A N S Y S   S T A T I S T I C S -------+
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                       DISTRIBUTED ANSYS RUN COMPLETED                     |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys 2019 R2               Build 19.4         UP20190416     WINDOWS x64 |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)  1024 MB    Scratch Memory Requested      1024 MB |
+ | Maximum Database Used      14 MB    Maximum Scratch Memory Used    170 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =         56.176       Time  =  11:31:12        |
+ |        Elapsed Time (sec) =         60.000       Date  =  11/16/2019      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*

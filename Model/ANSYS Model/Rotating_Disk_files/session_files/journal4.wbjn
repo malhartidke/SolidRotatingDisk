@@ -1,0 +1,44 @@
+# encoding: utf-8
+# 2019 R2
+SetScriptVersion(Version="19.4.159")
+system1 = GetSystem(Name="SYS")
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="General Non-linear Materials",
+    Source="General Materials Non-linear.xml")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.ImportMaterial(
+    Name="Structural Steel NL",
+    Source="General Materials Non-linear.xml")
+material1 = engineeringData1.GetMaterial(Name="Stainless Steel NL")
+material1.Delete()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+template1 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+engineeringDataComponent1 = system1.GetComponent(Name="Engineering Data")
+geometryComponent1 = system1.GetComponent(Name="Geometry")
+system2 = template1.CreateSystem(
+    Name="",
+    ComponentsToShare=[engineeringDataComponent1, geometryComponent1, modelComponent1],
+    Position="Right",
+    RelativeTo=system1)
+system2.Delete()
+system3 = template1.CreateSystem(
+    Name="",
+    ComponentsToShare=[engineeringDataComponent1, geometryComponent1, modelComponent1],
+    Position="Right",
+    RelativeTo=system1)
+system3.DisplayText = "Rotating Disk"
+system1.DisplayText = "Rotating Disk Elastic"
+system3.DisplayText = "Rotating Disk Plastic"
+system1.DisplayText = "Rotating Disk Completely Elastic"
+system3.DisplayText = "Rotating Disk Completely Plastic"
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+system3.DisplayText = "Rotating Disk Elastic Plastic"
+Save(Overwrite=True)

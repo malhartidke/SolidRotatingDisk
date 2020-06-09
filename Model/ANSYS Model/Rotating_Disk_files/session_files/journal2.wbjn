@@ -1,0 +1,56 @@
+# encoding: utf-8
+# 2019 R2
+SetScriptVersion(Version="19.4.159")
+system1 = GetSystem(Name="SYS")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometryProperties1 = geometry1.GetGeometryProperties()
+geometryProperties1.GeometryImportAnalysisType = "AnalysisType_2D"
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+Save(Overwrite=True)
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+material1 = engineeringData1.GetMaterial(Name="Stainless Steel NL")
+matlProp1 = material1.GetProperty(Name="Elasticity")
+matlProp1.SetVariableProperty(
+    VariableName="Young's Modulus",
+    Property="Unit",
+    Value="MPa")
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["193000 [MPa]"]])
+Save(Overwrite=True)
+matlProp2 = material1.GetProperty(Name="Isotropic Hardening")
+matlProp2.BeginBatchUpdate()
+matlProp2.SetVariableProperty(
+    SheetName="Isotropic Hardening",
+    SheetQualifiers={"Definition": "Bilinear", "Behavior": ""},
+    VariableName="Yield Strength",
+    Property="Unit",
+    Value="MPa")
+matlProp2.SetData(
+    SheetName="Isotropic Hardening",
+    SheetQualifiers={"Definition": "Bilinear", "Behavior": ""},
+    Variables=["Yield Strength"],
+    Values=[["210 [MPa]"]])
+matlProp2.EndBatchUpdate()
+matlProp2.BeginBatchUpdate()
+matlProp2.SetVariableProperty(
+    SheetName="Isotropic Hardening",
+    SheetQualifiers={"Definition": "Bilinear", "Behavior": ""},
+    VariableName="Tangent Modulus",
+    Property="Unit",
+    Value="MPa")
+matlProp2.SetData(
+    SheetName="Isotropic Hardening",
+    SheetQualifiers={"Definition": "Bilinear", "Behavior": ""},
+    Variables=["Tangent Modulus"],
+    Values=[["1800 [MPa]"]])
+matlProp2.EndBatchUpdate()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+model1.Exit()
+Save(Overwrite=True)
